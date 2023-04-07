@@ -1,3 +1,13 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://cyf-signposts.netlify.app/'
+title = 'CYF Signposts'
+languageCode = "en-gb"
+
+[params]
+description = "Signposting resources for CodeYourFuture members"
+repo = "https://github.com/CodeYourFuture/CYF-Signposts"
+
+
+disableKinds = ["taxonomy", "term"]
+[taxonomies]
+series = "regions"
+tags = "topics"

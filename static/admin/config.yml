@@ -4,15 +4,19 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+  - name: "entry"
+    label: "Entry"
+    folder: "content/entry"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Link", name: link, widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Region", name: "region", widget: "dropdown" }
+      - { label: "CYF", name: "cyf", widget: "boolean" }
+      - { label: "Topic", name: "topic", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }

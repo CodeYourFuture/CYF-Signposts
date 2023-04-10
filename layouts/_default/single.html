@@ -2,9 +2,6 @@
 
 <article>
   <header class="page-header">
-    <div class="page-header__breadcrumbs">
-      {{ partial "breadcrumbs.html" . }}
-    </div>
     <h1 class="page-header__title">{{.Title}}</h1>
     {{with .Params.Regions}}
     <h2 class="page-header__region">Region: {{delimit . " | "}}</h2>

@@ -13,12 +13,12 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Your review
+    id: review
     attributes:
       label: Text content
       description: Please advise on the usefulness of this resource. Please don't share anything personal. Just let us know -- is this useful? Is this not really accessible? Thumbs up or thumbs down?
   - type: checkboxes
-    id: terms
+    id: vouch
     attributes:
       label: Vouch
       description: You have personal experience with this resource

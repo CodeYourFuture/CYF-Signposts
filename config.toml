@@ -6,8 +6,6 @@ languageCode = "en-gb"
 description = "Signposting resources for CodeYourFuture members"
 repo = "https://github.com/CodeYourFuture/CYF-Signposts"
 
-
-disableKinds = ["taxonomy", "term"]
 [taxonomies]
 series = "regions"
 tags = "topics"

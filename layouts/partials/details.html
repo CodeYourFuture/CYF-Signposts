@@ -1,0 +1,17 @@
+<!-- topics doesn't need lowercase-->
+{{ $topics := slice }} {{ range .Params.Topics }} {{ $topics = $topics | append
+(replace . " " "-") }} {{ end }}
+<details data-topics='{{ delimit $topics " | " }}' data-cyf="{{.Params.CYF}}">
+  <summary>
+    <h4>
+      {{ .Title }} {{with .Params.Link}}<a class="accordion__link" href="{{.}}"
+        >🔗</a
+      >{{end}}
+    </h4>
+  </summary>
+  {{ with .Params.Description}}
+  <h5>{{.}}</h5>
+  {{end}}
+  <!-- content-->
+  {{ .Content}}
+</details>

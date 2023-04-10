@@ -1,13 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  </head>
-  <body>
-    <h1>Nice. It's looking good already.</h1>
-  </body>
-</html>
+{{define "main"}}
+<!-- get all the pages -->
+{{ $posts := where .Site.RegularPages "Type" "posts" }} {{ $regions :=
+.Site.Taxonomies.regions}} {{ $topics := .Site.Taxonomies.topics }}
+<!-- this form doesn't submit anywhere. It just allows the user to filter the existing hidden accordion -->
+<form>
+  <label for="region">👋 I'm in</label>
+  <input list="list-of-regions" id="region" name="region" autocomplete="off" />
+  <datalist id="list-of-regions">
+    {{ range $regions }}
+    <option value="{{.Page.Title }}"></option>
+    {{end}}
+  </datalist>
+  <label for="topic">and I need help with</label>
+  <!-- this list is updated with JS -->
+  <input
+    list=" "
+    id="topic"
+    name="topic"
+    autocomplete="off"
+    aria-live="polite"
+  />
+  <!-- all the topics per region -->
+  {{ range $r, $rPosts := $regions }}
+  <datalist id="{{ $r }}">
+    {{ $topicSet := slice }} {{ range $rPosts.Pages }} {{ range .Params.topics
+    }} {{ $topicKey := replace . " " "-" }} {{ if not (in $topicSet $topicKey)
+    }} {{ $topicSet = $topicSet | append $topicKey }} {{ end }} {{ end }} {{ end
+    }} {{ range $topicSet }}
+    <option value="{{ . }}"></option>
+    {{ end }}
+  </datalist>
+  {{ end }}
+  <!-- now our actions -->
+  <button class="button button--submit" type="submit">Signpost</button>
+  <button class="button button--icon" type="reset">↻</button>
+</form>
+<!-- now our content -->
+<article aria-live="assertive">
+  {{ range $region, $regionPosts := $regions }}
+  <section data-regions="{{ $region }}">
+    <h2>{{ $region }}</h2>
+    {{ range $regionPosts.Pages }} {{ $topic := .Params.topics }} {{ partial
+    "details" .}} {{ end }}
+  </section>
+  {{ end }}
+</article>
+
+{{ end}}

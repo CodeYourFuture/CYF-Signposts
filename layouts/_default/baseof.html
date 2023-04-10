@@ -1,0 +1,8 @@
+{{- partial "head.html" . -}}
+<body class="layout">
+  {{ partialCached "header.html" . }}
+  <main id="main" class="layout__main" tabindex="0">
+    {{ block "main" . }} {{ end }}
+  </main>
+  {{- partialCached "footer.html" . -}}
+</body>

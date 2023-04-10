@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1 class="page-header__title">{{.Title}}</h1>
+  <h2 class="page-header__description">{{.Description}}</h2>
+</header>
+
+{{ with .Content }}
+<article class="copy">{{.}}</article>
+{{end}}
+
+<article class="accordion">
+  {{ range .Pages }} {{ partial "details.html" . }} {{ end }}
+</article>
+
+{{ end}}

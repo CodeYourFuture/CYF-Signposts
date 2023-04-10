@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: main # Branch to update (optional; defaults to master)
 media_folder: static/img
 public_folder: /img
 collections:
@@ -16,17 +16,20 @@ collections:
       - { label: "Link", name: link, widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Internal CYF resource", name: "cyf", widget: "boolean" }
       - label: "Problem/Topic"
         name: "topics"
         widget: "list"
-      - label: "CYF Region"
+      - label: "CYF Regions"
         name: "regions"
-        widget: "select"
-        options:
-          - "Capetown"
-          - "Glasgow"
-          - "London"
-          - "North West"
-          - "West Midlands"
+        widget: "list"
+        field:
+          label: "Region"
+          name: "region"
+          widget: "select"
+          options:
+            - "Capetown"
+            - "Glasgow"
+            - "London"
+            - "North West"
+            - "West Midlands"
       - { label: "Body", name: "body", widget: "markdown" }

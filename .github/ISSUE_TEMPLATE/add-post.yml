@@ -1,0 +1,63 @@
+name: Recommend resource
+description: Recommend a resource to be added to this site
+title: "[Recommendation] <title>"
+labels: [Recommendation, For Review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to recommend a resource!
+  - type: input
+    attributes:
+      label: Link to the resource
+    validations:
+      required: true
+  - type: dropdown
+    id: regions
+    attributes:
+      label: Regions
+      description: What regions is this resource available in?
+      multiple: true
+      options:
+        - Capetown
+        - Glasgow
+        - London
+        - North West
+        - West Midlands
+    validations:
+      required: true
+  - type: textarea
+    id: topics
+    attributes:
+      label: Topics
+      description: Topics resource addresses, eg Housing, Banking, ADHD
+  - type: input
+    attributes:
+      label: Link to the resource
+    validations:
+      required: true
+  - type: textarea
+    id: res-desc
+    attributes:
+      label: Resource description
+      description: Please describe what this resource does and how to access it. It must be free! Please don't share anything personal, as this will be published. Please keep it plain and factual, so people understand what this service does and how to contact them.
+  - type: checkboxes
+    id: vouch
+    attributes:
+      label: Vouch
+      description: You have personal experience with this resource and think it is useful
+      options:
+        - label: I recommend this resource
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Data sharing
+      description: By submitting this issue, you agree to 1) publish and open source its content
+      options:
+        - label: I agree to publish and open source this content
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you so much.**

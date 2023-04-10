@@ -1,0 +1,39 @@
+name: Review resource
+description: Review a resource on this site
+title: "[Review] <title>"
+labels: [Review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to review a resource!
+  - type: input
+    attributes:
+      label: Direct link to the resource on our site
+    validations:
+      required: true
+  - type: textarea
+    id: Your review
+    attributes:
+      label: Text content
+      description: Please advise on the usefulness of this resource. Please don't share anything personal. Just let us know -- is this useful? Is this not really accessible? Thumbs up or thumbs down?
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Vouch
+      description: You have personal experience with this resource
+      options:
+        - label: I know what I am talking about
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Data sharing
+      description: By submitting this issue, you agree to 1) publish and open source its content
+      options:
+        - label: I agree to publish and open source this content
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you so much.**

@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CYF
+    url: contact@codeyourfuture.io
+    about: Please report serious issues here.
+  - name: Join CYF
+    url: https://codeyourfuture.io/volunteers/
+    about: Join CYF here
+  - name: CYF Slack
+    url: codeyourfuture.slack.com
+    about: Come to #cyf-syllabus-tech and chat
+  - name: CYF Tech Ed
+    url: https://github.com/orgs/CodeYourFuture/teams/mentors
+    about: CYF mentors on Github

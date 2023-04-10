@@ -1,0 +1,16 @@
+.layout {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  gap: var(--theme-spacing--gutter);
+  max-width: var(--theme-spacing--container);
+  min-height: 100vh;
+  margin: 0 auto;
+
+  &__header,
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--theme-spacing--gutter);
+  }
+}

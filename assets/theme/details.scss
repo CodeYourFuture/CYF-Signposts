@@ -1,0 +1,10 @@
+details {
+  summary {
+    > * {
+      display: inline-block;
+    }
+    &::marker {
+      color: var(--theme-color--brand);
+    }
+  }
+}

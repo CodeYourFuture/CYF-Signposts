@@ -1,0 +1,15 @@
+$spacing__levels: 1, 2, 3, 4, 5, 6;
+:root {
+  @each $size in $spacing__levels {
+    --theme-spacing--#{$size}: clamp(
+      #{($size * 2) * 1px},
+      #{$size}vw + #{$size}px,
+      #{$size * 10px}
+    );
+  }
+
+  --theme-spacing--container: 1280px;
+  --theme-spacing--gutter: var(--theme-spacing--3);
+  --theme-spacing--linelength: 80ch;
+  --theme-spacing--tap: 48px;
+}

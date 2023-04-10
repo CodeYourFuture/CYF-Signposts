@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100%/1.5 var(--theme-font--copy);
+  background-color: var(--theme-color--paper);
+  color: var(--theme-color--ink);
+  margin: 0;
+  padding: calc(var(--theme-spacing--gutter) / 2);
+}
+
+$heading__levels: 1, 2, 3, 4, 5, 6;
+@each $h in $heading__levels {
+  h#{$h},
+  .heading__#{$h} {
+    font-family: var(--theme-font--display);
+    font-size: var(--theme-type-size--#{$h});
+    font-weight: 800;
+    margin: 0 auto var(--theme-spacing--2) 0;
+  }
+}
+h3 {
+  font-weight: 400;
+}
+
+a,
+a:link,
+a:visited {
+  color: currentColor;
+  text-decoration: dotted underline;
+
+  &:hover,
+  &:focus {
+    color: var(--theme-color--shade);
+    text-decoration: underline;
+  }
+}
+// if it has a class we presume it's styled
+ul[class],
+li[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

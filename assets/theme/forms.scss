@@ -1,0 +1,25 @@
+form {
+  font: 600 var(--theme-type-size--4) var(--theme-font--copy);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--theme-spacing--1);
+}
+
+input {
+  font-size: 100%;
+  color: currentColor;
+  border: var(--theme-border);
+  border-color: var(--theme-color--outline);
+  border-radius: var(--theme-border-radius);
+  background: var(--theme-color--paper);
+  padding: var(--theme-spacing--1) var(--theme-spacing--2);
+  appearance: none;
+  display: flex;
+
+  &:focus {
+    border-color: var(--theme-color--outline-event);
+    outline: none;
+  }
+}

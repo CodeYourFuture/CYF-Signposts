@@ -1,0 +1,69 @@
+button,
+.button {
+  // reset
+  appearance: none;
+  font: 900 100% var(--theme-font--display);
+  text-decoration: none;
+  text-align: center;
+  line-height: 0.875;
+  white-space: nowrap;
+  display: inline-flex;
+  place-items: center;
+  place-content: center;
+  min-width: var(--theme-spacing--tap);
+  height: fit-content;
+  gap: var(--theme-spacing--2);
+
+  // reset spacing to design system instead of viewport
+  --theme-spacing--1: 7px;
+  --theme-spacing--2: 17px;
+  --theme-spacing--3: 19px;
+  --theme-spacing--4: 31px;
+  // styles
+  color: var(--theme-color--paper);
+  background-color: var(--theme-color--ink);
+  border: var(--theme-border--thick);
+  border-radius: var(--theme-border-radius);
+  border-color: var(--theme-color--ink);
+  padding: var(--theme-spacing--2) var(--theme-spacing--4)
+    var(--theme-spacing--3) var(--theme-spacing--4);
+  transition: background-color 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    border-color 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  &:hover,
+  &:focus {
+    color: var(--theme-color--shade);
+    background-color: var(--theme-color--paper);
+    border-color: currentColor;
+    text-decoration: none;
+  }
+
+  //elements
+  &__icon,
+  &--icon {
+    width: var(--theme-spacing--tap);
+    min-width: var(--theme-spacing--tap);
+    max-height: var(--theme-spacing--tap);
+    padding: 4px;
+    border: 0;
+    background: transparent;
+    box-shadow: 0;
+    color: currentColor;
+    place-content: center;
+  }
+  &--secondary {
+    background: var(--theme-color--paper);
+    color: var(--theme-color--ink);
+  }
+  &--submit {
+    background: var(--theme-color--add);
+    border-color: var(--theme-color--add);
+
+    &:hover,
+    &:focus {
+      background-color: var(--theme-color--add-event);
+      border-color: var(--theme-color--add-event);
+      color: var(--theme-color--paper);
+    }
+  }
+}

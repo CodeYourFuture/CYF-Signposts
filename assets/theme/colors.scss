@@ -1,0 +1,58 @@
+@mixin lightmode {
+  --theme-color--paper: hsl(0, 0%, 100%);
+  --theme-color--ink: hsl(215, 55%, 24%);
+  --theme-color--ink-fade: rgba(12, 12, 50, 0.25);
+  --theme-color--accent: hsl(211, 100%, 46%);
+  --theme-color--shade: hsl(228, 70%, 53%);
+  --theme-color--brand: hsl(5, 85%, 57%);
+  --theme-color--pop: hsl(0, 100%, 50%);
+  --theme-color--add: hsl(145, 63%, 42%);
+  --theme-color--add-event: hsl(157, 100%, 24%);
+  //greys
+  --theme-color--block: hsl(0, 0%, 98%);
+  --theme-color--outline: hsl(0, 0%, 89%);
+  --theme-color--outline-event: hsl(0, 0%, 66%);
+  //signals
+  --theme-color--error: var(--theme-color--pop);
+  --theme-color--success: var(--theme-color--add);
+  --theme-color--warning: rgb(242, 252, 57);
+}
+
+@mixin darkmode {
+  --theme-color--paper: hsl(240, 58%, 5%);
+  --theme-color--ink: rgba(240, 240, 240, 1);
+  --theme-color--ink-fade: rgba(240, 240, 240, 0.25);
+  --theme-color--accent: hsl(211, 100%, 46%);
+  --theme-color--shade: hsl(228, 70%, 53%);
+  --theme-color--brand: hsl(5, 85%, 57%);
+  --theme-color--pop: hsl(0, 100%, 50%);
+  --theme-color--add: hsl(145, 63%, 42%);
+  --theme-color--add-event: hsl(157, 100%, 24%);
+
+  //greys
+  --theme-color--block: hsl(0, 0%, 10%);
+  --theme-color--outline: hsl(240, 19%, 60%);
+  --theme-color--outline-event: hsl(211, 100%, 46%);
+  //signals
+  --theme-color--error: var(--theme-color--pop);
+  --theme-color--success: var(--theme-color--add);
+  --theme-color--warning: rgb(242, 252, 57);
+}
+
+:root {
+  @media (prefers-color-scheme: light) {
+    @include lightmode;
+  }
+  @media (prefers-color-scheme: dark) {
+    @include darkmode;
+  }
+}
+
+.toggle-mode {
+  @media (prefers-color-scheme: light) {
+    @include darkmode;
+  }
+  @media (prefers-color-scheme: dark) {
+    @include lightmode;
+  }
+}

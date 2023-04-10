@@ -49,3 +49,7 @@ li[class] {
   margin: 0;
   list-style: none;
 }
+
+.copy {
+  max-width: var(--theme-spacing--linelength);
+}

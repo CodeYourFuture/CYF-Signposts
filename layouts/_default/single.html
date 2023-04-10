@@ -6,8 +6,11 @@
       {{ partial "breadcrumbs.html" . }}
     </div>
     <h1 class="page-header__title">{{.Title}}</h1>
-    <h2 class="page-header__region">Region: {{.Params.Region}}</h2>
-    <h3 class="page-header__topic">Topic: {{.Params.Topic}}</h3>
+    {{with .Params.Regions}}
+    <h2 class="page-header__region">Region: {{delimit . " | "}}</h2>
+    {{end}} {{with .Params.Topics}}
+    <h3 class="page-header__topic">Topic: {{delimit . " | "}}</h3>
+    {{end}}
   </header>
 
   <section class="copy">{{.Content}}</section>

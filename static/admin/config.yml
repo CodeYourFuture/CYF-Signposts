@@ -18,8 +18,8 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - label: "Problem/Topic"
         name: "topic"
-        widget: "tags"
-        delimiter: ","
+        widget: "list"
+        allow_add: true
       - label: "CYF Regions"
         name: "regions"
         widget: "list"

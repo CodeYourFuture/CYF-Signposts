@@ -7,11 +7,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to recommend a resource!
-  - type: input
-    attributes:
-      label: Link to the resource
-    validations:
-      required: true
   - type: dropdown
     id: regions
     attributes:

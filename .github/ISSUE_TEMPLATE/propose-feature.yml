@@ -1,4 +1,4 @@
-name: Developer issues
+name: Propose feature
 description: Propose a new feature for the website
 title: "[Feature] <title>"
 labels: [Development, Feature]
@@ -6,13 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to open an issue! Please read the contributing guidelines before continuing.
+        Thanks for taking the time to propose a feature! 
+        Please read the contributing guidelines before continuing.
   - type: textarea
     id: feature-proposal
     attributes:
       label: Propose new feature
-      description: Propose new feature
-      placeholder: Please include your user story or stories and then describe functionality with Given/When/Then
+      description: Please include your user story or stories and then describe functionality with Given/When/Then
+      placeholder: As a CYF trainee, I want to be able to...
   - type: markdown
     attributes:
       value: |

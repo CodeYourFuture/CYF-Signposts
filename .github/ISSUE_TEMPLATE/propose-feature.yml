@@ -1,0 +1,19 @@
+name: Developer issues
+description: Propose a new feature for the website
+title: "[Feature] <title>"
+labels: [Development, Feature]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to open an issue! Please read the contributing guidelines before continuing.
+  - type: textarea
+    id: feature-proposal
+    attributes:
+      label: Propose new feature
+      description: Propose new feature
+      placeholder: Please include your user story or stories and then describe functionality with Given/When/Then
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you so much.**

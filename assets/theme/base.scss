@@ -12,7 +12,7 @@ body {
   background-color: var(--theme-color--paper);
   color: var(--theme-color--ink);
   margin: 0;
-  padding: calc(var(--theme-spacing--gutter) / 2);
+  padding: var(--theme-spacing--gutter);
 }
 
 $heading__levels: 1, 2, 3, 4, 5, 6;

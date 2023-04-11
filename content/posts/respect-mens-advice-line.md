@@ -18,7 +18,3 @@ We’re here to support men experiencing domestic abuse. If you want to talk to 
 Email support : [info@mensadviceline.org.uk](mailto:info@mensadviceline.org.uk)
 
 **Mon-Fri 10am-5pm**
-
-Free from landlines and mobile phones within the UK. Your call will not appear on itemised bills. You can also call free from BT pay phones.\
-\
-We also speak to frontline workers, family members, friends and practitioners. If you’re supporting a male victim, you’re welcome to contact us for confidential advice and information. All calls are free, or you can email or webchat us.

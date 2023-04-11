@@ -10,11 +10,13 @@ ul.topics {
   padding-left: var(--theme-spacing--gutter);
   li {
     list-style-type: "☂️    ";
+    margin-bottom: 0.5em;
   }
 }
 ul.regions {
   padding-left: var(--theme-spacing--gutter);
   li {
     list-style-type: "📍   ";
+    margin-bottom: 0.5em;
   }
 }

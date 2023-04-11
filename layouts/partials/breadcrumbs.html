@@ -1,7 +1,7 @@
 {{ with .Parent }}
 <nav class="breadcrumbs">
   <ol class="breadcrumbs__list">
-    {{- range after 1 .Ancestors.Reverse }}
+    {{with .Ancestors }} {{- range after 1 .Reverse }}
     <li class="breadcrumbs__item">
       <a class="breadcrumbs__link" href="{{ .Permalink }}"
         >{{ .Title }}
@@ -22,7 +22,7 @@
         </svg>
       </a>
     </li>
-    {{- end }}
+    {{- end }} {{- end }}
     <li class="breadcrumbs__item">
       <a class="breadcrumbs__link" href="{{ .Permalink }}">{{ .Title }}</a>
     </li>

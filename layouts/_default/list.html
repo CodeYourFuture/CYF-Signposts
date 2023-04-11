@@ -1,5 +1,6 @@
 {{ define "main" }}
 <header class="page-header">
+  {{ partial "breadcrumbs.html" . }}
   <h1 class="page-header__title">{{.Title}}</h1>
   <h2 class="page-header__description">{{.Description}}</h2>
 </header>
@@ -8,8 +9,6 @@
 <article class="copy">{{.}}</article>
 {{end}}
 
-<article class="accordion">
-  {{ range .Pages }} {{ partial "details.html" . }} {{ end }}
-</article>
+<article>{{ range .Pages }} {{ partial "details.html" . }} {{ end }}</article>
 
 {{ end}}

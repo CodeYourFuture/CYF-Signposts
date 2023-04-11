@@ -1,31 +1,5 @@
 {{ with .Parent }}
 <nav class="breadcrumbs">
-  <ol class="breadcrumbs__list">
-    {{with .Ancestors }} {{- range after 1 .Reverse }}
-    <li class="breadcrumbs__item">
-      <a class="breadcrumbs__link" href="{{ .Permalink }}"
-        >{{ .Title }}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          width="24px"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="breadcrumbs__icon"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M8.25 4.5l7.5 7.5-7.5 7.5"
-          />
-        </svg>
-      </a>
-    </li>
-    {{- end }} {{- end }}
-    <li class="breadcrumbs__item">
-      <a class="breadcrumbs__link" href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-  </ol>
+  <a class="breadcrumbs__link" href="{{ .Permalink }}">{{ .Title }}</a>
 </nav>
 {{end}}

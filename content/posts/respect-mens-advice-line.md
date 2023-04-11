@@ -15,7 +15,6 @@ We’re here to support men experiencing domestic abuse. If you want to talk to 
 ## **It’s okay to talk**
 
 ##### Telephone support: [0808 8010327](<tel:0808 8010327> "Call 0808 8010327")\
-\
 Email support : [info@mensadviceline.org.uk](mailto:info@mensadviceline.org.uk)
 
 **Mon-Fri 10am-5pm**

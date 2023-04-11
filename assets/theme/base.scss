@@ -26,6 +26,9 @@ $heading__levels: 1, 2, 3, 4, 5, 6;
     text-transform: capitalize;
   }
 }
+h1 {
+  margin-bottom: 0;
+}
 h3 {
   font-weight: 400;
 }
@@ -34,7 +37,7 @@ a,
 a:link,
 a:visited {
   color: currentColor;
-  text-decoration: dotted underline;
+  text-decoration: none;
 
   &:hover,
   &:focus {
@@ -42,14 +45,10 @@ a:visited {
     text-decoration: underline;
   }
 }
-// if it has a class we presume it's styled
-ul[class],
-li[class] {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
 
 .copy {
   max-width: var(--theme-spacing--linelength);
+  a:any-link {
+    text-decoration: dotted underline;
+  }
 }

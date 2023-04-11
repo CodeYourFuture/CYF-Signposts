@@ -1,0 +1,20 @@
+// if it has a class we presume it's styled
+ul[class],
+li[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.topics {
+  padding-left: var(--theme-spacing--gutter);
+  li {
+    list-style-type: "☂️    ";
+  }
+}
+ul.regions {
+  padding-left: var(--theme-spacing--gutter);
+  li {
+    list-style-type: "📍   ";
+  }
+}

@@ -1,0 +1,22 @@
+{{ define "main" }}
+<header class="page-header">
+  {{ partial "breadcrumbs.html" . }}
+  <h1 class="page-header__title">🧭 {{.Title}}</h1>
+  <h2 class="page-header__description heading__5">{{.Description}}</h2>
+</header>
+
+{{ with .Content }}
+<article class="copy">{{.}}</article>
+{{end}}
+
+<nav>
+  <ul class="{{ if eq .Section "topics" }} topics {{ else }} regions {{ end}}">
+    {{ range .Data.Pages }}
+    <li>
+      <a href="{{.Permalink}}">{{.Title}}</a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>
+
+{{ end}}

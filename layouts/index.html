@@ -1,7 +1,8 @@
 {{define "main"}} {{.Content}}
 <!-- get all the pages -->
-{{ $posts := where .Site.RegularPages "Type" "posts" }} {{ $regions :=
-.Site.Taxonomies.regions}} {{ $topics := .Site.Taxonomies.topics }}
+{{ $baseURL := .Site.BaseURL }} {{ $posts := where .Site.RegularPages "Type"
+"posts" }} {{ $regions := .Site.Taxonomies.regions}} {{ $topics :=
+.Site.Taxonomies.topics }}
 <!-- this form doesn't submit anywhere. It just allows the user to filter the existing hidden accordion -->
 <form>
   <label for="region">👋 I'm in</label>
@@ -39,7 +40,7 @@
 <article aria-live="assertive">
   {{ range $region, $regionPosts := $regions }}
   <section data-regions="{{ $region }}">
-    <h2>📍 {{ $region }}</h2>
+    <a href="{{$baseURL}}regions/{{$region}}"><h2>📍 {{ $region }}</h2></a>
     {{ range $regionPosts.Pages }} {{ $topic := .Params.topics }} {{ partial
     "details" .}} {{ end }}
   </section>

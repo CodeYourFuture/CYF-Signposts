@@ -12,9 +12,11 @@
   {{ with .Params.Description}}
   <h5>{{.}}</h5>
   {{end}}
-  <!-- content-->
-  {{ .Content}}
-  <!-- end content-->
+  <div class="copy">
+    <!-- content-->
+    {{ .Content}}
+    <!-- end content-->
+  </div>
   {{ with .Params.Link}}
   <h5>
     <a class="button button--submit" href="{{.}}">{{$site}}</a>

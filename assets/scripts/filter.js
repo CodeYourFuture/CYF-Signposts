@@ -8,7 +8,10 @@ function signpostFilter(topicsByRegion) {
   const updateVisibility = (element, isVisible) =>
     element.toggleAttribute("hidden", !isVisible);
 
-  const hideAll = () => {
+  const hideAll = (isFormPresent) => {
+    if (!isFormPresent) {
+      return;
+    }
     sections.forEach((section) => updateVisibility(section, false));
     accordionItems.forEach((item) => updateVisibility(item, false));
   };
@@ -47,7 +50,7 @@ function signpostFilter(topicsByRegion) {
     topicInput.setAttribute("list", `${selectedRegion}`);
   };
 
-  hideAll();
+  hideAll(form);
   regionInput.addEventListener("input", handleRegionChange);
   form.addEventListener("submit", handleSubmit);
 }

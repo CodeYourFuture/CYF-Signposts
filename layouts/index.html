@@ -1,4 +1,4 @@
-{{define "main"}}
+{{define "main"}} {{.Content}}
 <!-- get all the pages -->
 {{ $posts := where .Site.RegularPages "Type" "posts" }} {{ $regions :=
 .Site.Taxonomies.regions}} {{ $topics := .Site.Taxonomies.topics }}
@@ -39,7 +39,7 @@
 <article aria-live="assertive">
   {{ range $region, $regionPosts := $regions }}
   <section data-regions="{{ $region }}">
-    <h2>{{ $region }}</h2>
+    <h2>📍 {{ $region }}</h2>
     {{ range $regionPosts.Pages }} {{ $topic := .Params.topics }} {{ partial
     "details" .}} {{ end }}
   </section>

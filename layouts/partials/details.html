@@ -1,11 +1,11 @@
 <!-- topics doesn't need lowercase-->
 {{ $topics := slice }} {{ range .Params.Topics }} {{ $topics = $topics | append
-(replace . " " "-") }} {{ end }}
+(replace . " " "-") }} {{ end }} {{$site := .Title}}
 <details data-topics='{{ delimit $topics " | " }}' data-cyf="{{.Params.CYF}}">
   <summary>
     <h4>
-      {{ .Title }} {{with .Params.Link}}<a class="accordion__link" href="{{.}}"
-        >🔗</a
+      {{ $site }} {{with .Params.Link}}<a href="{{.}}"
+        >🔗<span class="is-invisible">to {{$site}} site</span></a
       >{{end}}
     </h4>
   </summary>
@@ -14,4 +14,10 @@
   {{end}}
   <!-- content-->
   {{ .Content}}
+  <!-- end content-->
+  {{ with .Params.Link}}
+  <h5>
+    <a class="button button--submit" href="{{.}}">{{$site}}</a>
+  </h5>
+  {{end}}
 </details>

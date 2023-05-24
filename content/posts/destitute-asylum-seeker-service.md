@@ -6,6 +6,7 @@ description: This service helps people who are destitute and who have exhausted
   their rights to appeal a negative decision on their asylum claim
 topics:
   - Destitution
+  - Refused Asylum 
 regions:
   - Glasgow
 ---

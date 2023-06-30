@@ -11,4 +11,7 @@ regions:
   - West Midlands
   - Glasgow
 ---
-Use this calculator to find out how much you could get towards approved childcare, including:  free childcare for children aged between 2 and 4 help with childcare costs if your child is under 16 (or under 17 and disabled)
+Use this calculator to find out how much you could get towards approved childcare, including: 
+
+* free childcare for children aged between 2 and 4
+* help with childcare costs if your child is under 16 (or under 17 and disabled)

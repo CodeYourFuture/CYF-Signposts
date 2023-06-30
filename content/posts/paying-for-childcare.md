@@ -1,5 +1,5 @@
 ---
-title: Help with paying for Childcare
+title: Paying for Childcare
 link: https://www.gov.uk/childcare-calculator
 date: 2023-06-30T14:11:32.569Z
 description: Check what help you could get with childcare costs

@@ -6,7 +6,6 @@ description: How to claim expenses for childcare through CYF
 topics:
   - Childcare
 regions:
-  - Capetown
   - Glasgow
   - London
   - North West

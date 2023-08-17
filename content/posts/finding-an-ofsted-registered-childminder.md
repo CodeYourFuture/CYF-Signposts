@@ -8,6 +8,8 @@ topics:
 regions:
   - North West
   - West Midlands
+  - Glasgow
+  - London
 ---
 I﻿t can be hard to find weekend childminders who are Ofsted-registered, but CYF can only reimburse Ofsted registered providers. This website sorts providers by postcode and shows a calendar of availability, so you can see who is open at the weekend and call them.
 

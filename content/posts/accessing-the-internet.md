@@ -4,7 +4,7 @@ link: https://docs.codeyourfuture.io/trainees/support/trainee-expenses
 date: 2023-08-01T10:50:16.551Z
 description: How to access help with internet connectivity through CYF
 topics:
-  - Connectivity
+  - Equipment
 regions:
   - Glasgow
   - London

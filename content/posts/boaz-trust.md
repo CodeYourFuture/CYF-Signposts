@@ -5,6 +5,8 @@ date: 2023-09-15T10:41:21.022Z
 description: Homelessness support for refugees and asylum seekers in Manchester
 topics:
   - Homelessness
+  - Destitution
+  - Failed Asylum
 regions:
   - North West
 ---

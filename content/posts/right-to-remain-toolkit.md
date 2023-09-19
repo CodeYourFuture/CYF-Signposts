@@ -5,6 +5,7 @@ date: 2023-09-19T06:34:52.363Z
 description: A step-by-step guide to the UK asylum and immigration system
 topics:
   - Asylum
+  - Refused Asylum
 regions:
   - London
   - Glasgow

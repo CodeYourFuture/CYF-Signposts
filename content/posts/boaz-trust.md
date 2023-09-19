@@ -6,7 +6,7 @@ description: Homelessness support for refugees and asylum seekers in Manchester
 topics:
   - Homelessness
   - Destitution
-  - Failed Asylum
+  - Refused Asylum
 regions:
   - North West
 ---

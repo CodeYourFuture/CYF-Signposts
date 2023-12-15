@@ -8,6 +8,7 @@ topics:
 regions:
   - North West
   - West Midlands
+  - London
 ---
 StreetLink is a website, mobile app and phone service for England and Wales, which enables people to send an alert when they see someone sleeping rough to connect that person to local support services that can help to end their homelessness. 
 

@@ -4,7 +4,7 @@ link: https://www.acas.org.uk/
 date: 2023-04-14T10:25:40.254Z
 description: Advisory, Conciliation and Arbitration Service
 topics:
-  - Workplace-Rights
+  - Workplace Rights
 regions:
   - Glasgow
   - London

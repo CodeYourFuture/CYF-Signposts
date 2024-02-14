@@ -5,6 +5,7 @@ date: 2023-05-24T07:39:13.449Z
 description: Benefits, Your Rights, and the Law
 topics:
   - Legal Advice
+  - Benefits
 regions:
   - London
   - North West

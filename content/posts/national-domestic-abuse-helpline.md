@@ -4,7 +4,7 @@ link: https://www.nationaldahelpline.org.uk/
 date: 2023-04-11T21:13:56.719Z
 description: The Helpline can help you find a refuge vacancy for you and your children
 topics:
-  - Domestic-Abuse
+  - Domestic Abuse
 regions:
   - London
   - North West

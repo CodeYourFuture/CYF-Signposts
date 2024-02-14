@@ -4,7 +4,7 @@ link: https://www.citizensadvice.org.uk/
 date: 2023-05-24T07:39:13.449Z
 description: Benefits, Your Rights, and the Law
 topics:
-  - Legal-Advice
+  - Legal Advice
 regions:
   - London
   - North West

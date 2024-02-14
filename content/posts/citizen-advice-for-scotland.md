@@ -5,6 +5,7 @@ date: 2023-04-27T12:14:13.238Z
 description: Benefits, Your Rights, and the Law
 topics:
   - Legal Advice
+  - Benefits
 regions:
   - Glasgow
 ---

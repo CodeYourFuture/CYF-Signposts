@@ -15,4 +15,6 @@ C﻿odeYourFuture can loan you a laptop if you do not have one to use for our co
 
 This is a loan only; you should return the laptop when you get a job in tech after completing the course. If you leave the course, you need to return the laptop to CYF.
 
-After your request has been reviewed, you will receive an agreement to sign via email. Once signed, a staff member in your region will be in touch with the next steps.
+The laptop is free of charge.
+
+After you have completed the form, you will get an email with a loan agreement to sign. Once signed, a CYF member in your region will be in touch with the next steps.

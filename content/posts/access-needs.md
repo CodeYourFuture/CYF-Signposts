@@ -5,6 +5,8 @@ date: 2024-02-19T20:29:53.538Z
 description: Getting help with accessing learning at Code Your Future
 topics:
   - Accessibility
+  - Disability
+  - Autism
 regions:
   - Capetown
   - Glasgow

@@ -7,6 +7,7 @@ topics:
   - Accessibility
   - Disability
   - Autism
+  - Equipment
 regions:
   - Capetown
   - Glasgow

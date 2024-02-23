@@ -5,6 +5,8 @@ date: 2024-02-22T10:21:00.633Z
 description: Find out more about the Access to Work Scheme
 topics:
   - Disability
+  - Accessibility
+  - Workplace Rights
 regions:
   - Glasgow
   - London

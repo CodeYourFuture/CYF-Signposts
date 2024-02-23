@@ -7,6 +7,8 @@ topics:
   - Disability
   - Accessibility
   - Workplace Rights
+  - Autism
+  - Equipment
 regions:
   - Glasgow
   - London

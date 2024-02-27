@@ -11,4 +11,4 @@ regions:
   - North West
   - West Midlands
 ---
-Acas gives employees and employers free, impartial advice on workplace rights, rules and best practice. It also offer training and help to resolve disputes.
+Acas gives employees and employers free, impartial advice on workplace rights, rules and best practice. It also offers training and help to resolve disputes.

@@ -6,7 +6,7 @@ description: "Famsa provides counselling and education to help improve marriages
   and families. "
 topics:
   - Therapy
-  - Domestic violence
+  - Domestic Abuse
   - Trauma
   - Divorce
   - Mediation

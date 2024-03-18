@@ -6,9 +6,8 @@ description: TEARS Foundation provides access to crisis intervention, advocacy,
   counselling, and prevention education services for those impacted by domestic
   violence, sexual assault and child sexual abuse.
 topics:
-  - Domestic violence
+  - Domestic Abuse
   - Sexual assault
-  - Abuse
   - Crisis intervention
   - Advocacy
   - Counselling

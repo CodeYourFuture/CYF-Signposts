@@ -8,6 +8,8 @@ topics:
   - Poverty
   - Clothing
   - Food
+regions:
+  - Glasgow
 ---
 The Refuweegee Shop is a place for you to browse and select items for you and your family. You can collect clothing, household items, entertainment items, food and toiletries - free of charge.
 

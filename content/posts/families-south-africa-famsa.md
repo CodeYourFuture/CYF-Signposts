@@ -20,6 +20,4 @@ FAMSA Western Cape is a non-profit organisation (NPO) specialising in relationsh
 
 Famsa can provide legal information, coaching, training and counselling for all ages. This includes support relating to grief and marriage difficulties. 
 
-
-
 Tel: 011 975 7106/7

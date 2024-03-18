@@ -1,6 +1,6 @@
 ---
 title: Families South Africa (Famsa)
-link: http://www.famsaorg.mzansiitsolutions.co.za/
+link: https://www.famsawc.org.za/
 date: 2024-03-18T00:58:31.810Z
 description: "Famsa provides counselling and education to help improve marriages
   and families. "
@@ -11,19 +11,15 @@ topics:
   - Divorce
   - Mediation
   - Grief
+  - Relationship Counselling
+  - Marriage Counselling
 regions:
   - Capetown
 ---
-Famsa helps in cases of domestic violence and trauma, divorces and mediation. There are 27 offices across the country.
+FAMSA Western Cape is a non-profit organisation (NPO) specialising in relationship counselling. Famsa helps in cases of domestic violence and trauma, divorces and mediation. 
 
-Famsa can provde legal information, coaching, training and counselling. 
+Famsa can provide legal information, coaching, training and counselling for all ages. This includes support relating to grief and marriage difficulties. 
 
-The counseling support provided by Famsa includes: 
 
-* Marriage /couple/ relationship counseling
-* Grief counseling
-* Individual counseling for all ages 
-* Family counseling 
-* Divorce counseling
 
 Tel: 011 975 7106/7

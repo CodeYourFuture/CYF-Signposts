@@ -8,7 +8,7 @@ description: TEARS Foundation provides access to crisis intervention, advocacy,
 topics:
   - Domestic Abuse
   - Sexual Assault
-  - Crisis intervention
+  - Crisis Intervention
   - Advocacy
   - Counselling
 regions:

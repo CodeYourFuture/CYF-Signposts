@@ -12,6 +12,7 @@ topics:
   - Asylum
   - Money
   - Homelessness
+  - Poverty
 regions:
   - Glasgow
 ---

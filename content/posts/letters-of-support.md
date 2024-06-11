@@ -4,7 +4,7 @@ link: mailto:ops@codeyourfuture.io
 date: 2024-06-11T14:25:00.000Z
 description: CYF Can write a letter of support for you
 topics:
-  - Support
+  - Letter-of-Support
 regions:
   - Glasgow
   - London

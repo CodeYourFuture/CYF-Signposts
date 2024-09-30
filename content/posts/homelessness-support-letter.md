@@ -15,4 +15,4 @@ if you've made a [homeless application](https://england.shelter.org.uk/housing_
 * refuse to give you emergency housing
 * ask for more information to show you're in priority need
 
-And you need a supporting letter, please **email** your regional staff team and ask them to complete and send a Homelessness Support Letter, which is in the Team Drive.
+And you need a supporting letter, please **email** pastoral@codeyourfuture.io and ask them to complete and send a Homelessness Support Letter, which is in the Team Drive.

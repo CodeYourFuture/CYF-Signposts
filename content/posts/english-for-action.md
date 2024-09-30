@@ -6,7 +6,6 @@ description: free legal advice, information and representation for people held i
 topics:
   - Legal Advice
   - Detention
-  - Refused Asylum
 regions:
   - West Midlands
   - North West

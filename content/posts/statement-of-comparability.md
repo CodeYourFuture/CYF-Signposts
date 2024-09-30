@@ -17,4 +17,4 @@ The Statement of Comparability helps to explain and to give context to your qual
 \
 You do **not** need to pay for this document to apply for CYF. Do not do this. This signpost is for CYF grads applying for **jobs** with required qualifications. \
 \
-If you are a refugee who has *lost* their documents, email us about this. There is a specialist refugee team at ENIC to help with this situation.
+If you are a refugee who has *lost* their documents, email pastoral@codeyourfuture.io about this. There is a specialist refugee team at ENIC to help with this situation.

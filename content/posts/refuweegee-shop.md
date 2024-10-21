@@ -7,7 +7,7 @@ description: Free clothing, household items, entertainment items, food and
 topics:
   - Poverty
   - Clothing
-  - Food
+  - Hunger
 regions:
   - Glasgow
 ---

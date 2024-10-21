@@ -6,7 +6,6 @@ description: "practical information and support to people facing income shocks
   and financial insecurity. "
 topics:
   - Poverty
-  - Money
   - Benefits
 regions:
   - Glasgow

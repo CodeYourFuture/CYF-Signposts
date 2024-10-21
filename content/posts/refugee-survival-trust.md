@@ -10,9 +10,6 @@ topics:
   - Refused-Asylum
   - Transport
   - Asylum
-  - Money
-  - Homelessness
-  - Poverty
 regions:
   - Glasgow
 ---

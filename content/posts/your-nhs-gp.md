@@ -7,6 +7,8 @@ description: The NHS provides free medical care. Your GP is typically your first
 topics:
   - Health
   - ADHD
+  - Autism
+  - Therapy
 regions:
   - Glasgow
   - London

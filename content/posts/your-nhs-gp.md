@@ -6,6 +6,7 @@ description: The NHS provides free medical care. Your GP is typically your first
   stop for most health concerns.
 topics:
   - Health
+  - ADHD
 regions:
   - Glasgow
   - London

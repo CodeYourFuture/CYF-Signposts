@@ -40,19 +40,5 @@
 }
 
 :root {
-  @media (prefers-color-scheme: light) {
-    @include lightmode;
-  }
-  @media (prefers-color-scheme: dark) {
-    @include darkmode;
-  }
-}
-
-.toggle-mode {
-  @media (prefers-color-scheme: light) {
-    @include darkmode;
-  }
-  @media (prefers-color-scheme: dark) {
-    @include lightmode;
-  }
+  @include lightmode;
 }

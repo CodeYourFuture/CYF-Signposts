@@ -11,6 +11,11 @@
   </header>
 
   <section class="copy">{{.Content}}</section>
+  {{ if .Params.Link}}
+  <h5>
+    <a class="button button--submit" href="{{.Params.Link}}">{{.Title}}</a>
+  </h5>
+  {{end}}
 </article>
 
 {{ end }}

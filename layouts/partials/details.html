@@ -16,6 +16,9 @@
     <!-- content-->
     {{ .Content}}
     <!-- end content-->
+    {{ with .RelPermalink }}<a href="{{.}}"
+      >🔗 Get a Permalink to this signpost</a
+    >{{end}}
   </div>
   {{ with .Params.Link}}
   <h5>

@@ -1,8 +1,11 @@
-{{- partial "head.html" . -}}
-<body class="layout">
-  {{ partialCached "header.html" . }}
-  <main id="main" class="layout__main" tabindex="0">
-    {{ block "main" . }} {{ end }}
-  </main>
-  {{- partialCached "footer.html" . -}}
-</body>
+<!DOCTYPE html>
+<html lang="en-gb">
+  {{- partial "head.html" . -}}
+  <body class="layout">
+    {{ partialCached "header.html" . }}
+    <main id="main" class="layout__main" tabindex="0" data-pagefind-body>
+      {{ block "main" . }} {{ end }}
+    </main>
+    {{- partialCached "footer.html" . -}}
+  </body>
+</html>

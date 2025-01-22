@@ -6,11 +6,16 @@
   min-height: 100vh;
   margin: 0 auto;
 
+  &__main {
+    padding-top: var(--theme-spacing--6);
+  }
+
   &__header,
   &__footer {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: var(--theme-spacing--gutter);
   }
 }

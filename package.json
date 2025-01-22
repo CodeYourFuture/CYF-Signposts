@@ -1,0 +1,12 @@
+{
+  "name": "cyf-signposts",
+  "version": "1.0.0",
+  "description": "This is a Hugo static site with a Netlify CMS made available on /admin. It's an invite only account system to use the CMS. Talk to PD to get an invitation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

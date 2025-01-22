@@ -1,10 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title data-pagefind-meta="title">
-    {{ range after 1 .Ancestors.Reverse }} {{ print (title .Title | default
-    "Signposts") " " }} {{ end }} {{ title .Title }}
-  </title>
+  <title data-pagefind-meta="title">{{ .Title }}</title>
   {{ if .Page.Params.description }}
   <meta
     name="description"

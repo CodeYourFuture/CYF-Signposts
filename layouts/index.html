@@ -25,9 +25,9 @@
   {{ range $r, $rPosts := $regions }}
   <datalist id="{{ $r }}">
     {{ $topicSet := slice }} {{ range $rPosts.Pages }} {{ range .Params.topics
-    }} {{ $topicKey := replace . " " "-" }} {{ if not (in $topicSet $topicKey)
+    }} {{ $topicKey := replace . "-" " " }} {{ if not (in $topicSet $topicKey)
     }} {{ $topicSet = $topicSet | append $topicKey }} {{ end }} {{ end }} {{ end
-    }} {{ range $topicSet }}
+    }} {{ range sort $topicSet }}
     <option value="{{ . }}"></option>
     {{ end }}
   </datalist>
@@ -37,7 +37,7 @@
   <button class="button button--icon" type="reset">↻</button>
 </form>
 <!-- now our content -->
-<article aria-live="assertive">
+<article aria-live="polite">
   {{ range $region, $regionPosts := $regions }}
   <section data-regions="{{ $region }}">
     <a href="{{$baseURL}}regions/{{$region}}"><h2>📍 {{ $region }}</h2></a>

@@ -11,10 +11,7 @@ regions:
   - North West
   - West Midlands
 ---
-<!--StartFragment-->
 
 **If you're feeling like you want to die, it's important to tell someone.**
 
 Help and support is available right now if you need it. You do not have to struggle with difficult feelings alone.
-
-<!--EndFragment-->

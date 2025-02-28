@@ -1,0 +1,8 @@
+.tag,
+.label {
+  display: inline-block;
+  padding: 0 var(--theme-spacing--2);
+  border-radius: var(--theme-spacing--6);
+  border: 1px solid var(--theme-color--outline-event);
+  background: var(--theme-color--outline);
+}

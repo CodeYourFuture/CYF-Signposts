@@ -23,9 +23,9 @@
   />
   <!-- all the topics per region -->
   {{ range $r, $rPosts := $regions }}
-  <datalist id="{{ $r }}">
+  <datalist id="{{ replace $r " " "-"}}">
     {{ $topicSet := slice }} {{ range $rPosts.Pages }} {{ range .Params.topics
-    }} {{ $topicKey := replace . "-" " " }} {{ if not (in $topicSet $topicKey)
+    }} {{ $topicKey := replace . " " "-" }} {{ if not (in $topicSet $topicKey)
     }} {{ $topicSet = $topicSet | append $topicKey }} {{ end }} {{ end }} {{ end
     }} {{ range sort $topicSet }}
     <option value="{{ . }}"></option>
@@ -33,11 +33,10 @@
   </datalist>
   {{ end }}
   <!-- now our actions -->
-  <button class="button button--submit" type="submit">Signpost</button>
   <button class="button button--icon" type="reset">↻</button>
 </form>
 <!-- now our content -->
-<article aria-live="polite">
+<article aria-live="polite" id="signposts-by-region">
   {{ range $region, $regionPosts := $regions }}
   <section data-regions="{{ $region }}">
     <a href="{{$baseURL}}regions/{{$region}}"><h2>📍 {{ $region }}</h2></a>

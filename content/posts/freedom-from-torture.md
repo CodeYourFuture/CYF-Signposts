@@ -4,6 +4,8 @@ link: https://www.freedomfromtorture.org/help-for-survivors/therapy-and-practica
 date: 2023-04-11T07:58:58.225Z
 description: Trauma-focused therapy and practical help for survivors of torture.
 topics:
+  - Mental Health
+subtopics:
   - Therapy
 regions:
   - Glasgow
@@ -11,7 +13,8 @@ regions:
   - North West
   - West Midlands
 ---
-Freedom From Torture provide therapy and support for survivors of torture in the UK.  They accept referrals and self-referrals. **[Referral form](https://www.freedomfromtorture.org/help-for-survivors/therapy-and-practical-help/make-referral).**
+
+Freedom From Torture provide therapy and support for survivors of torture in the UK. They accept referrals and self-referrals. **[Referral form](https://www.freedomfromtorture.org/help-for-survivors/therapy-and-practical-help/make-referral).**
 
 From their site:
 

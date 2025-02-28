@@ -3,22 +3,24 @@ title: CARAS
 link: https://caras.org.uk/what-we-do/adult-services/#social-and-wellbeing
 date: 2024-07-01T18:36:00.000Z
 description: ESOL teaching and conversation for refugees and asylum seekers
+
 topics:
   - English
 regions:
   - London
 ---
+
 ESOL English language support, community centre, coffee, theatre trips etc
 
 1. Anyone who is in the asylum system
 
 2. Anyone who has been granted refugee status
 
-3.    People who are joining their family members on refugee family reunion visas
+3. People who are joining their family members on refugee family reunion visas
 
 4. Refused asylum seekers and ARE cases
 
-*And* 
+_And_
 
 live in South London.
 

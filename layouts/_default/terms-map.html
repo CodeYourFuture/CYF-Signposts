@@ -11,12 +11,27 @@
 
 <nav>
   <ul class="{{ if eq .Section "topics" }} topics {{ else }} regions {{ end}}">
-    {{ range .Data.Pages }}
+    {{ range sort .Data.Pages "Title" }}
     <li>
-      <a href="{{.Permalink}}">{{.Title}}</a>
+      {{ if .Pages }}
+        <details>
+          <summary>
+            <h3><a href="{{.Permalink}}">{{.Title}}</a></h3>
+            <span class="count">({{len .Pages}})</span>
+          </summary>
+          <ul class="subtopics">
+            {{ range .Pages }}
+            <li>
+              <a href="{{.Permalink}}">{{.Title}}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </details>
+      {{ else }}
+        <a href="{{.Permalink}}">{{.Title}}</a>
+      {{ end }}
     </li>
     {{ end }}
   </ul>
 </nav>
-
-{{ end}}
+{{ end }}

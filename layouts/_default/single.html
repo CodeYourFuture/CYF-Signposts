@@ -4,16 +4,32 @@
   <header class="page-header">
     <h1 class="page-header__title">{{.Title}}</h1>
     {{with .Params.Regions}}
-    <h2 class="page-header__region">Region: {{delimit . " | "}}</h2>
+    <h2 class="page-header__region" title="available in regions">
+      📍 {{ $regions := . }} {{ range . }}
+      <a href="/regions/{{ . | urlize }}">{{ . }}</a>{{ if ne (index (last 1
+      $regions) 0) . }} | {{ end }} {{ end }}
+    </h2>
     {{end}} {{with .Params.Topics}}
-    <h3 class="page-header__topic">Topic: {{delimit . " | "}}</h3>
+    <h3 class="page-header__topic" alt="umbrella topic">
+      ☂️ {{ $topics := . }} {{ range . }}
+      <a href="/topics/{{ . | urlize }}">{{ . }}</a>{{ if ne (index (last 1
+      $topics) 0) . }} | {{ end }} {{ end }}
+    </h3>
+    {{end}} {{ with .Params.subtopics}}
+    <p class="page-header__subtopic" alt="subtopics">
+      {{ range sort . }}
+      <span class="tag">{{.}}</span>
+      {{ end}}
+    </p>
     {{end}}
   </header>
 
   <section class="copy">{{.Content}}</section>
   {{ if .Params.Link}}
   <h5>
-    <a class="button button--submit" href="{{.Params.Link}}">{{.Title}}</a>
+    <a class="button button--submit" href="{{.Params.Link}}"
+      >{{.Title}} &rarr;</a
+    >
   </h5>
   {{end}}
 </article>

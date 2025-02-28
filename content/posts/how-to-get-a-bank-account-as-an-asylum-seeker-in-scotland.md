@@ -9,6 +9,7 @@ topics:
 regions:
   - Glasgow
 ---
+
 **April 2022 Update for Scotland residents: Bank of Scotland accounts for Asylum Seekers**
 
 Bank of Scotland has opened their doors for Asylum Seekers for Classic Accounts. Before you apply here is what you need:
@@ -18,8 +19,6 @@ Bank of Scotland has opened their doors for Asylum Seekers for Classic Accounts.
 \- Mears Tenancy Agreement OR
 
 \- If you are a volunteer with a charity organisation, ask them to write a support letter. The support letter should include your address and your participation in the organisation. The letter can be addressed as: To Whom it may concern.
-
-
 
 Here are the steps:
 

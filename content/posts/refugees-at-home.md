@@ -12,7 +12,8 @@ regions:
   - North West
   - West Midlands
 ---
-People who have refugee status and a good standard of English can refer themselves for accommodation.  We also offer the **self-referral** process for those arriving through the Homes for Ukraine scheme. 
+
+People who have refugee status and a good standard of English can refer themselves for accommodation.  We also offer the **self-referral** process for those arriving through the Homes for Ukraine scheme.
 
 They will need to provide details of two people who can vouch for them. These need to be people who we have known the prospective guest while they have been in the UK and who know the guest well enough to be able to answer questions about who they are and what their plans are. Hosts may ask to speak to them.
 

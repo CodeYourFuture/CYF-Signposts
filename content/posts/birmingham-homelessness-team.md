@@ -8,6 +8,7 @@ topics:
 regions:
   - West Midlands
 ---
+
 Homelessness services in Birmingham are available 24/7 over the telephone.
 
 **Monday to Friday, 10am to 5pm:** **0121 303 7410**. Select option 3

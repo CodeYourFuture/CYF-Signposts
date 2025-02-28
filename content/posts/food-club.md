@@ -4,10 +4,13 @@ link: https://mustardtree.org.uk/get-help/food/
 date: 2023-04-11T20:26:50.354Z
 description: Food club
 topics:
+  - Poverty
+subtopics:
   - Hunger
 regions:
   - North West
 ---
+
 #### Food Club
 
 If you’re having to make impossible choices between paying a bill or putting a meal on the table, or simply struggling to make ends meet, Mustard Tree’s Food Club could help.

@@ -12,7 +12,8 @@ regions:
   - North West
   - West Midlands
 ---
-To join the Code Your Future Software Development Course you need a B2 level of English. 
+
+To join the Code Your Future Software Development Course you need a B2 level of English.
 
 If your English level is not high enough yet, don’t give up. We will welcome you when you are ready. There are free videos and courses to help you learn more English.
 

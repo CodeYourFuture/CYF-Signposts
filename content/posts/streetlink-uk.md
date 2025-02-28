@@ -10,7 +10,8 @@ regions:
   - West Midlands
   - London
 ---
-StreetLink is a website, mobile app and phone service for England and Wales, which enables people to send an alert when they see someone sleeping rough to connect that person to local support services that can help to end their homelessness. 
+
+StreetLink is a website, mobile app and phone service for England and Wales, which enables people to send an alert when they see someone sleeping rough to connect that person to local support services that can help to end their homelessness.
 
 StreetLink itself is not an outreach service or an accommodation provider, nor is it an emergency service. It is the link between someone sleeping rough and the independent local services available. **Self referrals are accepted.**
 

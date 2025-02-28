@@ -12,12 +12,34 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Link", name: link, widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - label: "Problem/Topic"
-        name: "topics"
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: link, widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {
+          label: "Topics",
+          name: "topics",
+          widget: "select",
+          multiple: false,
+          options:
+            [
+              "Banking",
+              "Benefits",
+              "Career support",
+              "Domestic Abuse",
+              "English",
+              "Homelessness",
+              "Legal support",
+              "Mental Health",
+              "Physical Health",
+              "Poverty",
+              "Suicide",
+              "Support for CYF Class",
+              "Victim support",
+            ],
+        }
+      - label: "Subtopics"
+        name: "subtopics"
         widget: "list"
         allow_add: true
       - label: "CYF Regions"
@@ -33,4 +55,4 @@ collections:
             - "London"
             - "North West"
             - "West Midlands"
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {label: "Body", name: "body", widget: "markdown"}

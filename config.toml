@@ -9,3 +9,4 @@ repo = "https://github.com/CodeYourFuture/CYF-Signposts"
 [taxonomies]
 series = "regions"
 tags = "topics"
+subtopics = "subtopics"

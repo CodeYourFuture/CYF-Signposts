@@ -5,7 +5,7 @@ date: 2024-09-16T15:20:00.000Z
 description: "As a refugee we recommend you apply to MONZO:
   https://monzo.com/blog/2018/05/30/getting-bank-account-refugee/  They have the
   best service and technology in the market (and the best app)."
-subtopics:
+topics:
   - Banking
 regions:
   - Glasgow

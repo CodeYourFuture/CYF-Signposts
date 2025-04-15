@@ -10,6 +10,7 @@ regions:
   - London
   - West Midlands
 ---
+
 Before you get your refugee status and when you’re an asylum seeker you are likely to find it difficult to open a current account. You can try one of the following options:
 
 \- Option 1: Traditional bank account

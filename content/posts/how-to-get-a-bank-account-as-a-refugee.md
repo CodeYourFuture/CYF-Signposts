@@ -13,12 +13,13 @@ regions:
   - North West
   - West Midlands
 ---
+
 f you are a refugee (or right to remain in the UK)
 
 To get a UK bank account you will need:
 
-\- A form of ID (passport, biometric residence permit);
+- A form of ID (passport, biometric residence permit);
 
-\- A proof of address (this could be a recent bill or a letter from the Home Office).
+- A proof of address (this could be a recent bill or a letter from the Home Office).
 
 All documents need to be very recent and originals, not photocopies. If you have more than one, it is better to bring everything. If they don’t accept one document, they might accept another.

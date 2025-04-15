@@ -4,13 +4,14 @@ link: https://www.refugeecouncil.org.uk/get-support/services/ukrainian-therapeut
 date: 2024-02-14T18:32:02.298Z
 description: Therapy, crisis intervention, group sessions, peer support
 topics:
+  - Mental Health
+subtopics:
   - Therapy
 regions:
   - London
 ---
 
-
-***the London Ukrainian Therapeutic Service is currently OPEN to new referrals***
+**_the London Ukrainian Therapeutic Service is currently OPEN to new referrals_**
 
 ### How to access this service
 

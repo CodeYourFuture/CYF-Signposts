@@ -10,9 +10,10 @@ regions:
   - North West
   - West Midlands
 ---
+
 if you've made a [homeless application](https://england.shelter.org.uk/housing_advice/homelessness/get_help_from_the_council/sample_homelessness_application_email) and the council:
 
-* refuse to give you emergency housing
-* ask for more information to show you're in priority need
+- refuse to give you emergency housing
+- ask for more information to show you're in priority need
 
 And you need a supporting letter, please **email** pastoral@codeyourfuture.io and ask them to complete and send a Homelessness Support Letter, which is in the Team Drive.

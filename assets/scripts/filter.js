@@ -1,58 +1,43 @@
-function signpostFilter(topicsByRegion) {
+function signpostFilter() {
   const form = document.querySelector("form");
   const regionInput = document.getElementById("region");
   const topicInput = document.getElementById("topic");
-  const sections = document.querySelectorAll("section[data-regions]");
-  const accordionItems = document.querySelectorAll("details");
+  const article = document.getElementById("signposts-by-region");
+  const sections = article.querySelectorAll("section[data-regions]");
 
-  const updateVisibility = (element, isVisible) =>
-    element.toggleAttribute("hidden", !isVisible);
+  const normalise = (value) =>
+    value ? value.toLowerCase().replace(/ /g, "-") : "";
 
-  const hideAll = (isFormPresent) => {
-    if (!isFormPresent) {
-      return;
-    }
-    sections.forEach((section) => updateVisibility(section, false));
-    accordionItems.forEach((item) => updateVisibility(item, false));
-  };
+  const filter = () => {
+    const selectedRegion = normalise(regionInput.value);
+    const selectedTopic = normalise(topicInput.value);
 
-  const filterSectionsAndAccordionItems = (selectedRegion, selectedTopic) => {
+    // all the topic lists are already in the html
+    topicInput.setAttribute("list", selectedRegion);
+
     sections.forEach((section) => {
-      const sectionRegions = section.dataset.regions
-        .split(" | ")
-        .map((region) => region.toLowerCase().replace(/ /g, "-"));
-
-      const isVisible = sectionRegions.includes(selectedRegion);
-      updateVisibility(section, isVisible);
-
-      if (isVisible) {
-        const items = section.querySelectorAll("details");
-        items.forEach((item) => {
-          const itemTopics = item.dataset.topics.split(" | ");
-          const itemVisible = itemTopics.includes(selectedTopic);
-          updateVisibility(item, itemVisible);
+      // hide the regions that don't match
+      const regionMatch = normalise(section.dataset.regions) === selectedRegion;
+      section.hidden = !regionMatch;
+      // within, hide the entries that don't match the topic
+      // we've limited the top level topic to 1 in config.yml
+      if (regionMatch) {
+        section.querySelectorAll("details").forEach((detail) => {
+          detail.hidden =
+            selectedTopic && normalise(detail.dataset.topics) !== selectedTopic;
         });
       }
     });
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  sections.forEach((section) => (section.hidden = true));
 
-    const selectedRegion = regionInput.value.toLowerCase().replace(/ /g, "-");
-    const selectedTopic = topicInput.value;
-
-    filterSectionsAndAccordionItems(selectedRegion, selectedTopic);
-  };
-
-  const handleRegionChange = () => {
-    const selectedRegion = regionInput.value.toLowerCase().replace(" ", "-");
-    topicInput.setAttribute("list", `${selectedRegion}`);
-  };
-
-  hideAll(form);
-  regionInput.addEventListener("input", handleRegionChange);
-  form.addEventListener("submit", handleSubmit);
+  regionInput.addEventListener("input", filter);
+  topicInput.addEventListener("input", filter);
+  form.addEventListener("reset", () => {
+    sections.forEach((section) => (section.hidden = true));
+    topicInput.setAttribute("list", " ");
+  });
 }
 
 document.addEventListener("DOMContentLoaded", signpostFilter);

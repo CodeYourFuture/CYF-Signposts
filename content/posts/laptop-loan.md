@@ -12,6 +12,7 @@ regions:
   - London
   - North West
   - West Midlands
+  - Sheffield
 ---
 
 C﻿odeYourFuture can loan you a laptop if you do not have one to use for our course. This is available for the CYF trainees. You will enrol as a trainee at the end of the first module of Introduction to Programming

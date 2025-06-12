@@ -54,5 +54,6 @@ collections:
             - "Glasgow"
             - "London"
             - "North West"
+            - "Sheffield"
             - "West Midlands"
       - {label: "Body", name: "body", widget: "markdown"}

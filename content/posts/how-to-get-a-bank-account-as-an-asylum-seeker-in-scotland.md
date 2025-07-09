@@ -9,7 +9,6 @@ topics:
 regions:
   - Glasgow
 ---
-
 **April 2022 Update for Scotland residents: Bank of Scotland accounts for Asylum Seekers**
 
 Bank of Scotland has opened their doors for Asylum Seekers for Classic Accounts. Before you apply here is what you need:
@@ -27,3 +26,6 @@ Here are the steps:
 \- Choose a branch. If you are in Glasgow, we recommend this branch as we have previous positive experience with them.
 
 \- Once you have finished your application you get a notification in your email with a reference number. Go to the branch with your proof of ID and reference number to finalise and open the account.
+
+
+**Please note that Code Your Future are not financial advisors, and the information provided here is for informational purposes only. It should not be considered financial advice.**

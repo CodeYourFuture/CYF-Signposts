@@ -14,4 +14,4 @@ regions:
   - North West
   - West Midlands
 ---
-Suicide prevention support. Free-to-attend peer-to-peer support groups across the United Kingdom and online. For men only.
+Suicide prevention support. Free-to-attend peer-to-peer support groups across the United Kingdom and online. For men only..

@@ -8,7 +8,8 @@ description: Code Your Future can write a Letter of Introduction to support you
   attended some face to face sessions. We will also need to keep a copy of your
   Application Registration Card. Please complete the form to request this
   support.
-topics: Banking
+topics:
+  - Banking
 regions:
   - Glasgow
   - London

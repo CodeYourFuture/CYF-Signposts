@@ -3,8 +3,7 @@ title: "Social Tariffs: Low Cost Broadband"
 link: https://www.ofcom.org.uk/phones-and-broadband/saving-money/social-tariffs
 date: 2024-07-02T18:14:00.000Z
 description: Low cost broadband
-topics:
-  - Poverty
+topics: Poverty
 subtopics:
   - Equipment
 regions:

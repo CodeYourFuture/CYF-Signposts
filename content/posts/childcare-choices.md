@@ -3,8 +3,7 @@ title: Childcare Choices
 link: https://www.childcarechoices.gov.uk/
 date: 2024-07-02T18:11:00.000Z
 description: Enter your details to help find out how you can save money on your childcare.
-topics:
-  - Support for CYF Class
+topics: Support for CYF Class
 subtopics:
   - Childcare
 regions:

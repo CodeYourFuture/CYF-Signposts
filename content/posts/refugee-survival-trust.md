@@ -4,9 +4,7 @@ link: https://www.rst.org.uk/
 date: 2024-03-18T01:42:36.823Z
 description: The Refugee Survival Trust provide refugees and people seeking
   asylum with practical support when it is most needed.
-topics:
-  - Poverty
-  - Legal support
+topics: Poverty
 subtopics:
   - Poverty
   - Homelessness

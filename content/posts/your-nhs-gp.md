@@ -4,9 +4,7 @@ link: https://www.nhs.uk/nhs-services/gps/
 date: 2024-11-20T10:00:00.000Z
 description: The NHS provides free medical care. Your GP is typically your first
   stop for most health concerns.
-topics:
-  - Physical Health
-  - Mental Health
+topics: Physical Health
 subtopics:
   - ADHD
   - Autism

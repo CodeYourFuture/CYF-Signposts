@@ -3,8 +3,7 @@ title: Streetlink UK
 link: https://www.streetlink.org.uk/
 date: 2023-04-11T20:09:14.290Z
 description: Connecting people sleeping rough to local services
-topics:
-  - Homelessness
+topics: Homelessness
 regions:
   - North West
   - West Midlands

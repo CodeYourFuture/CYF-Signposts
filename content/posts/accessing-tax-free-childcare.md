@@ -3,8 +3,7 @@ title: Accessing Tax-Free Childcare
 link: https://www.gov.uk/get-tax-free-childcare
 date: 2023-08-29T14:32:25.973Z
 description: Step by step information on Tax-Free Childcare
-topics:
-  - Support for CYF Class
+topics: Support for CYF Class
 subtopics:
   - Childcare
 regions:

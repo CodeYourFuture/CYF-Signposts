@@ -4,8 +4,7 @@ link: https://www.nrpfnetwork.org.uk/information-and-resources/rights-and-entitl
 date: 2023-06-30T14:21:03.428Z
 description: Support for paying for childcare for people who have no recourse to
   public funds.
-topics:
-  - Support for CYF Class
+topics: Support for CYF Class
 subtopics:
   - Childcare
 regions:

@@ -3,8 +3,7 @@ title: Ukranian Therapeutic Service London
 link: https://www.refugeecouncil.org.uk/get-support/services/ukrainian-therapeutic-service-london/
 date: 2024-02-14T18:32:02.298Z
 description: Therapy, crisis intervention, group sessions, peer support
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Therapy
 regions:

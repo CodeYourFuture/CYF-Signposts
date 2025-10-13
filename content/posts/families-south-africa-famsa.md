@@ -4,8 +4,7 @@ link: https://www.famsawc.org.za/
 date: 2024-03-18T00:58:31.810Z
 description: "Famsa provides counselling and education to help improve marriages
   and families. "
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Therapy
 regions:

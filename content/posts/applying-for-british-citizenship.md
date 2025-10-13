@@ -3,8 +3,7 @@ title: Applying for British Citizenship
 link: https://www.gov.uk/british-citizenship
 date: 2025-08-12T16:00:00.000+01:00
 description: Information on the requirements to apply for British Citizenship
-topics:
-  - Legal support
+topics: Career support
 regions:
   - Glasgow
   - London

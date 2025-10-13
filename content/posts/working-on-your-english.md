@@ -4,8 +4,7 @@ link: https://docs.google.com/document/d/1XKpjtFTtvYf_j6hlLwEoiQ_ujSFv12P_WL0Th2
 date: 2023-05-15T15:54:37.146Z
 description: "To join the Code Your Future Software Development Course you need
   a B2 level of English.  "
-topics:
-  - English
+topics: English
 regions:
   - Glasgow
   - London

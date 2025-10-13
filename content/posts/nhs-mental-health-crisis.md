@@ -3,8 +3,7 @@ title: NHS Mental Health Crisis
 link: https://www.nhs.uk/service-search/mental-health/find-an-urgent-mental-health-helpline
 date: 2023-04-10T16:45:16.879Z
 description: Where to get urgent help for mental health
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Mental Health Crisis
 regions:

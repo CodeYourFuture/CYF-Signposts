@@ -3,8 +3,7 @@ title: "How to get a bank account as an Asylum Seeker "
 link: https://www.metrobankonline.co.uk/bank-accounts/products/cash-account/
 date: 2024-09-16T15:17:00.000Z
 description: As an asylum seeker, you can get a bank account with Metro.
-topics:
-  - Banking
+topics: Banking
 regions:
   - North West
   - London

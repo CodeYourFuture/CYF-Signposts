@@ -3,8 +3,7 @@ title: Access Needs
 link: https://forms.gle/6mC4Z63yQti8Pwwq8
 date: 2024-02-19T20:29:53.538Z
 description: Getting help with accessing learning at Code Your Future
-topics:
-  - Support for CYF Class
+topics: Support for CYF Class
 subtopics:
   - Accessibility
   - Disability

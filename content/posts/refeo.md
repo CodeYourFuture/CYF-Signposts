@@ -4,8 +4,7 @@ link: https://www.refeo.org/our-services-1
 date: 2023-08-15T15:20:59.477Z
 description: We match refugees and asylum seekers with mentors who support them
   to find a job
-topics:
-  - Career support
+topics: Career support
 subtopics:
   - Coaching
 regions:

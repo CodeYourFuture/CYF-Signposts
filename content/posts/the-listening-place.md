@@ -3,8 +3,7 @@ title: The Listening Place
 link: https://listeningplace.org.uk/
 date: 2024-04-06T21:35:00.000Z
 description: Face-to-face support for those who feel life is no longer worth living
-topics:
-  - Suicide
+topics: Suicide
 subtopics:
   - Mental Health Crisis
 regions:

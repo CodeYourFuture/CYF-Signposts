@@ -4,9 +4,7 @@ link: https://scottishrefugeecouncil.org.uk/direct-support/destitute-asylum-seek
 date: 2023-05-24T06:48:28.822Z
 description: This service helps people who are destitute and who have exhausted
   their rights to appeal a negative decision on their asylum claim
-topics:
-  - Homelessness
-  - Poverty
+topics: Legal support
 subtopics:
   - Destitution
   - Refused Asylum

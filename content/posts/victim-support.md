@@ -3,8 +3,7 @@ title: Victim Support
 link: https://www.victimsupport.org.uk/
 date: 2023-12-20T12:34:18.077Z
 description: Support for victims of crime and traumatic incidents
-topics:
-  - Victim Support
+topics: Victim support
 regions:
   - London
   - North West

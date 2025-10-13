@@ -3,8 +3,7 @@ title: Qwell
 link: https://www.qwell.io/
 date: 2023-04-14T11:03:24.176Z
 description: Free, safe and anonymous mental wellbeing support for adults
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Therapy
 regions:

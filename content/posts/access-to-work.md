@@ -3,8 +3,7 @@ title: Access to Work
 link: https://www.gov.uk/access-to-work
 date: 2024-02-22T10:21:00.633Z
 description: Find out more about the Access to Work Scheme
-topics:
-  - Career support
+topics: Career support
 subtopics:
   - Disability
   - Accessibility

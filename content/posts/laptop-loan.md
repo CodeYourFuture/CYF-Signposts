@@ -3,8 +3,7 @@ title: Laptop Loan
 link: https://airtable.com/appZdIjH0ZG3eXk1V/pagedMs6nRNHLSSoT/form
 date: 2023-08-01T10:44:03.712Z
 description: How to request a laptop through CYF
-topics:
-  - Support for CYF Class
+topics: Support for CYF Class
 subtopics:
   - Equipment
 regions:

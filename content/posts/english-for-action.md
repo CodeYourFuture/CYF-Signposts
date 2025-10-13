@@ -3,8 +3,7 @@ title: Bail for Immigration Detainees
 link: https://www.biduk.org/pages/3-contact-us
 date: 2024-07-02T12:34:00.000Z
 description: free legal advice, information and representation for people held in detention
-topics:
-  - Legal support
+topics: Legal support
 subtopics:
   - Legal Advice
   - Detention

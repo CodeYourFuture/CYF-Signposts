@@ -3,8 +3,7 @@ title: Statement of Comparability
 link: https://www.enic.org.uk/Qualifications/SOC/Default.aspx
 date: 2024-07-16T21:41:00.000Z
 description: A general purpose statement of qualification comparability
-topics:
-  - Career support
+topics: Career support
 subtopics:
   - Recognition of Foreign Qualifications
 regions:

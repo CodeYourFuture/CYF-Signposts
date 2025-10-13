@@ -3,8 +3,7 @@ title: Concessionary Rail Passes
 link: https://www.nationalrail.co.uk/railcards/
 date: 2024-06-27T09:27:00.000Z
 description: Schemes that offer discounted or free rail passes
-topics:
-  - Poverty
+topics: Benefits
 subtopics:
   - Transport
 regions:

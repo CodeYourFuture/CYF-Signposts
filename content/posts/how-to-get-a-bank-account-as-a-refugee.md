@@ -3,8 +3,7 @@ title: How to get a bank account as a refugee
 link: https://monzo.com/blog/2018/05/30/getting-bank-account-refugee/
 date: 2024-09-16T15:20:00.000Z
 description: As a refugee you can get a bank account with Monzo.
-topics:
-  - Banking
+topics: Banking
 regions:
   - Glasgow
   - London

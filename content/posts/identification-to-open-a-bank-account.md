@@ -4,8 +4,7 @@ link: https://forms.gle/QGwzhVU8pgcegQh76
 date: 2025-09-24T16:45:00.000+01:00
 description: Code Your Future can write a Letter of Introduction to support you
   to access a bank account. Please read the full description.
-topics:
-  - Banking
+topics: Banking
 regions:
   - Glasgow
   - London

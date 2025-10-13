@@ -3,8 +3,7 @@ title: Homelessness Support Letter
 link: https://england.shelter.org.uk/housing_advice/homelessness/priority_need/letter_template
 date: 2023-05-24T07:12:33.045Z
 description: Ask for a support letter from your regional team
-topics:
-  - Homelessness
+topics: Homelessness
 regions:
   - London
   - North West

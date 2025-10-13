@@ -3,8 +3,7 @@ title: Boaz Trust
 link: https://www.boaztrust.org.uk/pages/10-make-a-referral
 date: 2023-09-15T10:41:21.022Z
 description: Homelessness support for refugees and asylum seekers in Manchester
-topics:
-  - Homelessness
+topics: Homelessness
 subtopics:
   - Homelessness
   - Destitution

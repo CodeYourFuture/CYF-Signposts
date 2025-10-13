@@ -4,8 +4,7 @@ link: https://libraryon.org/map
 date: 2024-12-12T16:40:00.000Z
 description: Every public library in England has computers and wifi anyone
   can  use for free.
-topics:
-  - Support for CYF Class
+topics: Support for CYF Class
 subtopics:
   - Equipment
 regions:

@@ -3,8 +3,7 @@ title: RefMentors Returners
 link: https://refmentors.org.uk/returner-project/
 date: 2023-05-15T15:43:03.162Z
 description: Return to work support for refugee professionals in Manchester
-topics:
-  - Career support
+topics: Career support
 subtopics:
   - Coaching
 regions:

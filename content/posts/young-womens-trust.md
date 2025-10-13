@@ -3,8 +3,7 @@ title: Young Women's Trust
 link: https://www.youngwomenstrust.org/get-support/
 date: 2023-04-14T10:56:32.998Z
 description: Free career coaching for women 18-30
-topics:
-  - Career support
+topics: Career support
 subtopics:
   - Coaching
 regions:

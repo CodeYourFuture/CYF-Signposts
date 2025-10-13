@@ -3,8 +3,7 @@ title: Room to Heal
 link: https://www.roomtoheal.org/make-a-referral/
 date: 2024-02-14T22:54:32.933Z
 description: Room to Heal is a small therapeutic community for refugees and asylum seekers
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Therapy
 regions:

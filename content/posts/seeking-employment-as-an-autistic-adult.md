@@ -3,10 +3,8 @@ title: Seeking Employment as an Autistic Adult
 link: https://www.autismonlinetraining.com/
 date: 2023-05-23T17:47:36.516Z
 description: This resource has been designed and developed by autistic people,
-  for autistic people who are looking to find
-  employment.
-topics:
-  - Career support
+  for autistic people who are looking to find employment.
+topics: Career support
 subtopics:
   - Autism
 regions:

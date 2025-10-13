@@ -3,8 +3,7 @@ title: Help for Suicidal Thoughts
 link: https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/
 date: 2023-04-27T12:13:48.701Z
 description: What to do about feeling suicidal.
-topics:
-  - Suicide
+topics: Suicide
 regions:
   - Glasgow
   - London

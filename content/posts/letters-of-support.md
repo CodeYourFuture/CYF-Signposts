@@ -3,8 +3,7 @@ title: Letters of Support
 link: mailto:pastoral@codeyourfuture.io
 date: 2024-06-11T14:25:00.000Z
 description: CYF Can write a letter of support for you
-topics:
-  - Legal support
+topics: Legal support
 subtopics:
   - Letter of Support
 regions:

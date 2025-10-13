@@ -3,8 +3,7 @@ title: Respect, Men's Advice Line
 link: https://mensadviceline.org.uk/
 date: 2023-04-11T21:08:47.023Z
 description: The Helpline for male victims of domestic abuse
-topics:
-  - Domestic Abuse
+topics: Domestic Abuse
 regions:
   - London
   - North West

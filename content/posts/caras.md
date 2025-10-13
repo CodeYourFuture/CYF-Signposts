@@ -3,9 +3,7 @@ title: CARAS
 link: https://caras.org.uk/what-we-do/adult-services/#social-and-wellbeing
 date: 2024-07-01T18:36:00.000Z
 description: ESOL teaching and conversation for refugees and asylum seekers
-
-topics:
-  - English
+topics: Mental Health
 regions:
   - London
 ---

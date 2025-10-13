@@ -3,8 +3,7 @@ title: Food Club
 link: https://mustardtree.org.uk/get-help/food/
 date: 2023-04-11T20:26:50.354Z
 description: Food club
-topics:
-  - Poverty
+topics: Poverty
 subtopics:
   - Hunger
 regions:

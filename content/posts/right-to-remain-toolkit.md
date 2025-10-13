@@ -3,8 +3,7 @@ title: Right to Remain Toolkit
 link: https://righttoremain.org.uk/toolkit/
 date: 2023-09-19T06:34:52.363Z
 description: A step-by-step guide to the UK asylum and immigration system
-topics:
-  - Legal support
+topics: Legal support
 subtopics:
   - Asylum
   - Refused Asylum

@@ -4,8 +4,7 @@ link: https://www.thebiglifegroup.com/service/wesley-community-furniture/
 date: 2024-12-12T16:12:00.000Z
 description: very very low cost furniture, domestic appliances, household goods
   and clothing, delivered
-topics:
-  - Poverty
+topics: Poverty
 subtopics:
   - Destitution
   - Homelessness

@@ -3,8 +3,7 @@ title: Samaritans
 link: https://www.samaritans.org/how-we-can-help/
 date: 2023-12-20T12:25:22.671Z
 description: How the Samaritans can help
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Mental Health Crisis
 regions:

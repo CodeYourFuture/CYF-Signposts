@@ -3,8 +3,7 @@ title: Freedom Programme
 link: https://www.freedomprogramme.co.uk/index.php
 date: 2023-04-14T10:30:45.884Z
 description: Freedom Programme is a domestic violence programme
-topics:
-  - Domestic Abuse
+topics: Domestic Abuse
 subtopics:
   - Domestic Abuse
 regions:

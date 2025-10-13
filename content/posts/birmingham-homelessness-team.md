@@ -3,8 +3,7 @@ title: Birmingham Homelessness Team
 link: https://www.birmingham.gov.uk/info/20207/homelessness/1191/newtown_housing_options_centre
 date: 2023-04-11T20:14:06.017Z
 description: I need accommodation now.
-topics:
-  - Homelessness
+topics: Homelessness
 regions:
   - West Midlands
 ---

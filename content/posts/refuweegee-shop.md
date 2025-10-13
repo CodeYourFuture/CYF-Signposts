@@ -4,8 +4,7 @@ link: https://www.refuweegee.co.uk/shop
 date: 2024-03-18T01:23:23.338Z
 description: Free clothing, household items, entertainment items, food and
   toiletries for refugees and asylum seekers
-topics:
-  - Poverty
+topics: Poverty
 subtopics:
   - Clothing
   - Hunger

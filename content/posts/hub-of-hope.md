@@ -3,8 +3,7 @@ title: Hub of Hope
 link: https://hubofhope.co.uk/
 date: 2024-03-25T12:49:15.279Z
 description: This is a site like CYF signposts but just for mental health support
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Mental Health Crisis
   - Therapy

@@ -3,8 +3,7 @@ title: Freedom From Torture
 link: https://www.freedomfromtorture.org/help-for-survivors/therapy-and-practical-help
 date: 2023-04-11T07:58:58.225Z
 description: Trauma-focused therapy and practical help for survivors of torture.
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Therapy
 regions:

@@ -4,8 +4,7 @@ link: https://www.bankofscotland.co.uk/bankaccounts/classic.html
 date: 2024-09-16T15:14:00.000Z
 description: "Bank of Scotland has opened their doors for Asylum Seekers for
   Classic Accounts. "
-topics:
-  - Banking
+topics: Banking
 regions:
   - Glasgow
 ---

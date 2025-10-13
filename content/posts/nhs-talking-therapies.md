@@ -4,8 +4,7 @@ link: https://www.nhs.uk/service-search/mental-health/find-an-NHS-talking-therap
 date: 2023-05-23T17:49:53.388Z
 description: If you live in England and are aged 18 or over, you can access free
   NHS talking therapies services for anxiety and depression.
-topics:
-  - Mental Health
+topics: Mental Health
 subtopics:
   - Therapy
 regions:

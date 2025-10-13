@@ -3,8 +3,7 @@ title: Victim Support Scotland
 link: https://victimsupport.scot/
 date: 2023-12-20T12:49:10.218Z
 description: Support for victims of crime and traumatic incidents
-topics:
-  - Victim Support
+topics: Victim support
 regions:
   - Glasgow
 ---

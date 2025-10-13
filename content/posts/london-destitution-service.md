@@ -3,9 +3,7 @@ title: London Destitution Service
 link: https://www.refugeecouncil.org.uk/get-support/services/london-destitution-service/
 date: 2023-04-11T16:32:15.637Z
 description: Drop-in destitution service in Hackney
-topics:
-  - Poverty
-  - Homelessness
+topics: Poverty
 subtopics:
   - Destitution
 regions:

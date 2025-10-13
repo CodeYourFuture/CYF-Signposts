@@ -3,8 +3,7 @@ title: RefMentors Mentoring
 link: https://refmentors.org.uk/mentoring-project/
 date: 2023-05-15T15:39:54.151Z
 description: Mentoring for refugees in Manchester
-topics:
-  - Career support
+topics: Career support
 subtopics:
   - Coaching
 regions:

@@ -4,8 +4,7 @@ link: https://www.refugeesathome.org/referrer-resources/
 date: 2023-04-11T21:32:03.206Z
 description: "Refugees at Home matches people who have a spare room with
   refugees and asylum seekers in need of temporary accommodation. "
-topics:
-  - Homelessness
+topics: Homelessness
 regions:
   - Glasgow
   - London
